@@ -1,0 +1,40 @@
+h1{
+text-align: center;
+color:rgb(106, 172, 8);
+background-color:rgb(17, 66, 17);
+font-size: italic large;
+}
+
+img{
+    border-radius:400px;
+    border-style:grooved;
+    border-width:40px;
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 350px;
+height:350px;
+}
+
+nav a{
+text-transform: uppercase;
+color:brown;
+font-weight: bold;
+font-size: 30px;
+text-decoration: none;
+}
+
+nav {
+position: absolute;
+margin-top: 50px;
+top: 0px;
+right: 0px;
+}
+
+.caixa{
+position:relative;
+width:940px;
+margin: 0 auto;
+
+}
