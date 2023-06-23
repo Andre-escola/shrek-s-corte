@@ -1,8 +1,8 @@
 hl{
     color: rgb(36, 36, 109);
     font-family: 'time new roman', times, serif;
-    font-size: 50px;
-    text-align:left;
+    font-size: 60px;
+    text-align:center;
     margin-left: 25px;
 }
 
@@ -16,24 +16,22 @@ header{
 
 nav li{
     display:inline;
-    margin-right: 0px;
-    margin-left: 300px;
-    text-align: right;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center;
     }
     
 nav a{ 
-    text-align: left;
     text-transform: uppercase;
-    color: blueviolet;
-    font-weight: bolder;
+    color:blueviolet;
+    font-weight: bold;
     font-size: 20px;
     text-decoration: none;
-    
-
+    text-align: right;
 }
 
 nav{
-    text-align: left;
+    text-align: center;
     position: absolute;
     top: 225px;
     left: 10px;
