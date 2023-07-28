@@ -1,96 +1,117 @@
-h1{
-    text-align: left;
-    color:rgb(106, 172, 8);
-    background-color:rgb(35, 58, 16) ;
-    font-size: 50px;
-}
-
-.aumenta{
-    font-size: 100px;
+hl{
+    color: rgb(36, 36, 109);
+    font-family: 'time new roman', times, serif;
+    font-size: 60px;
+    text-align:center;
+    margin-left: 25px;
 }
 
 body{
     background-color: rgb(141, 175, 86);
 }
 
+.caixa{
+    position: relative;
+    margin-top:0px auto;
+}
+
 header{
     background-color: antiquewhite;
 }
 
-.logo{
-    width: 20%;
-    border-color: rgb(35, 58, 16);
-    border-radius: 20px;
-    border-style: groove;
-    border-width: 25px;
-    width: 80px;
-    height: 80px;
-}
-
-.image{
-    border-radius:400px;
-    border-style:grooved;
-    border-width:400px;
-
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 350px;
-height:350px;
-}
-
-nav a{
-text-transform: uppercase;
-color:blueviolet;
-font-weight: bold;
-font-size: 20px;
-text-decoration: none;
-text-align: right;
+nav li{
+    display:inline;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center;
+    }
+    
+nav a{ 
+    text-transform: uppercase;
+    color:blueviolet;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: right;
 }
 
 nav a:hover{
-display:inline;
-text-decoration: underline;
-color: red;   
+ color: red;
+ display:inline;
+ text-decoration: underline;
+ width: 20%;
 }
 
-nav li{
-    display: inline;
-    margin-right: 10px;
-    margin-left: 30px;
+nav{
     text-align: center;
+    position: absolute;
+    top: 200px;
+    right: 0px;
 }
 
-nav {
-position: absolute;
-top: 50px;
-right: 10px;
+.logo{
+    width: 12%;
+    border-color: black;
+    border-radius: 10px;
+    border-style: groove;
+    border-width: 30px;
+    width: 200px;
 }
 
-.caixa{
-position:relative;
-width:940px;
-margin:auto;
-height: 900px;
+.servicos{
+    width: 940px;
 }
 
-.donos li{
-    display: inline-block;
+.servicos li{
+display: inline-block;
+text-align: center;
+width: 30%;
+vertical-align: top;
+margin: 0 1.5%;
+padding: 30px 0px;
+box-sizing: border-box;
+border: 2px solid brown;
+border-radius: 10px;
+}
+
+.servicos li:hover{
+    color: red;
+}
+
+.servicos li:hover h2{
+    font-size: 34px;
+    color: red
+}
+
+.servicos li:active{
+    border-color: brown;
+    border-width: 4px;
+}
+
+.servicos img{
+width: 200px;
+height: 200px;
+}
+
+.descricao{
+font-size: 18px;
+}
+
+.preco{
+font-size: 22px;
+font-weight: bold;
+margin-top: 10px;
+}
+
+footer{
     text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 0px;
-    box-sizing: border-box;
-    border: 2px solid brown;
+    background-color: antiquewhite;
 }
 
-.donos img{
-    width: 400px;
-    height: 200px;
+footer img{
+    width: 10%;
 }
 
-.nome_dono{
-    text-transform: capitalize;
-    font-size: 50px;
+.copiao{
+    font-size: 10px;
 }
