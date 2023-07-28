@@ -74,16 +74,16 @@ border: 2px solid brown;
 border-radius: 10px;
 }
 
-.servico li:hover{
+.servicos li:hover{
     color: red;
 }
 
-.servico li:hover h2{
+.servicos li:hover h2{
     font-size: 34px;
     color: red
 }
 
-.servico li:active{
+.servicos li:active{
     border-color: brown;
     border-width: 4px;
 }
