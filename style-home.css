@@ -17,7 +17,7 @@ header{
 }
 
 .logo{
-    width: 20%;
+    width: 80%;
     border-color: rgb(35, 58, 16);
     border-radius: 20px;
     border-style: groove;
@@ -28,7 +28,7 @@ header{
 
 .image{
     border-radius:400px;
-    border-style:grooved;
+    border-style: groove;
     border-width:400px;
 
 display: block;
@@ -67,9 +67,9 @@ right: 10px;
 }
 
 .caixa{
-position:relative;
-width:940px;
-margin:auto;
+position: relative;
+width: 940px;
+margin: 0 auto;
 height: 900px;
 }
 
