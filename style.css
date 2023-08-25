@@ -16,6 +16,7 @@ p{
   padding: 10px;
 }
 
+/* DONOS*/
 .donos li{
     display: inline-block;
     text-align: center;
@@ -36,6 +37,8 @@ p{
     text-transform: capitalize;
     font-size: 50px;
 }
+
+/* corpo do texto */
 
 body{
     background-color: rgb(141, 175, 86);
@@ -147,6 +150,8 @@ footer img{
     font-size: 10px;
 }
 
+/* CONTATOS*/
+
 main{
     width: 940px;
     margin: 0 auto;
@@ -171,4 +176,67 @@ form label, form p {
 
 .checkbox{
     margin: 20px 0;
+}
+
+.enviar{
+width: 40%;
+padding: 15px 0;
+background:greenyellow ;
+color: white;
+font-weight: bold;
+font-size: 18px;
+border: none;
+border-radius: 18px;
+transition: 1s all;
+cursor: pointer;
+}
+
+.enviar:hover{
+background: black;
+transform: scale(1.2) ;
+}
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: white;
+    color: black;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+/* css página inicial*/
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.image{
+    background-color: rgb(25, 0, 255);
+    width: 30%;
+}
+
+.texto, .contato p{
+    margin: 0 0 1em;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.texto p, .contato p{
+margin: 0 0 1em;
+}
+
+.imagem-principal{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
 }
