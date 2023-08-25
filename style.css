@@ -53,6 +53,7 @@ header{
     background-color: antiquewhite;
 }
 
+/* SERVICOS*/
 nav li{
     display:inline;
     margin-right: 30px;
@@ -137,6 +138,8 @@ font-weight: bold;
 margin-top: 10px;
 }
 
+/*rodapé*/
+
 footer{
     text-align: center;
     background-color: antiquewhite;
@@ -179,22 +182,23 @@ form label, form p {
 }
 
 .enviar{
-width: 40%;
-padding: 15px 0;
-background:greenyellow ;
-color: white;
-font-weight: bold;
-font-size: 18px;
-border: none;
-border-radius: 18px;
-transition: 1s all;
-cursor: pointer;
+    width: 40%;
+    padding: 15px 0;
+    background:rgb(44, 71, 2) ;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 18px;
+    transition: 1s all;
+    cursor: pointer;
+    }
+    
+    .enviar:hover{
+    background: black;
+    transform: scale(1.2) ;
 }
 
-.enviar:hover{
-background: black;
-transform: scale(1.2) ;
-}
 
 table{
     margin: 20px 0 40px;
